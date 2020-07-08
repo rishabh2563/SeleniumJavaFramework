@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 101.954 s <<< FAILURE! - in TestSuite
+com.nopcommerce.test.EcommerceTest.registrationtest  Time elapsed: 24.642 s  <<< FAILURE!
+java.lang.AssertionError: expected [The specified email already exists1] but found [[[ChromeDriver: chrome on WINDOWS (e9e154cf01b9ec6006ec27be9eb09fc9)] -> xpath: //li[text()='The specified email already exists']]]
+	at com.nopcommerce.test.EcommerceTest.registrationtest(EcommerceTest.java:121)
+

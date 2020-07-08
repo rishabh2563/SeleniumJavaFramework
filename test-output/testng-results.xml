@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="198597" started-at="2020-02-12T16:16:13 IST" finished-at="2020-02-12T16:19:31 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="198597" started-at="2020-02-12T16:16:13 IST" finished-at="2020-02-12T16:19:31 IST">
+      <class name="com.practice.scripts.OrderTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.practice.scripts.OrderTest@4fe767f3]" name="setup" is-config="true" duration-ms="22677" started-at="2020-02-12T16:16:13 IST" finished-at="2020-02-12T16:16:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Order()[pri:1, instance:com.practice.scripts.OrderTest@4fe767f3]" name="Order" duration-ms="100648" started-at="2020-02-12T16:16:36 IST" description="verifying order is placed or not" finished-at="2020-02-12T16:18:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Order -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.practice.scripts.OrderTest@4fe767f3]" name="teardown" is-config="true" duration-ms="78" started-at="2020-02-12T16:18:16 IST" finished-at="2020-02-12T16:18:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.practice.scripts.OrderTest@4fe767f3]" name="setup" is-config="true" duration-ms="21189" started-at="2020-02-12T16:18:16 IST" finished-at="2020-02-12T16:18:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="InvalidOrder()[pri:2, instance:com.practice.scripts.OrderTest@4fe767f3]" name="InvalidOrder" duration-ms="53615" started-at="2020-02-12T16:18:38 IST" description="verifying order doesn&#039;t get placed" finished-at="2020-02-12T16:19:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidOrder -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.practice.scripts.OrderTest@4fe767f3]" name="teardown" is-config="true" duration-ms="112" started-at="2020-02-12T16:19:31 IST" finished-at="2020-02-12T16:19:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.practice.scripts.OrderTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

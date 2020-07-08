@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="101.954" tests="3" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="./Exefile/chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Fleek\eclipse-workspace\Practice\PracticeWebsite\target\test-classes;C:\Users\Fleek\eclipse-workspace\Practice\PracticeWebsite\target\classes;C:\Users\Fleek\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\Fleek\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Fleek\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Fleek\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Fleek\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Fleek\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Fleek\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Fleek\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Fleek\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Fleek\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Fleek\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Fleek\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Fleek\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Fleek\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Fleek\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Fleek\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Fleek\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Fleek\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Fleek\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Fleek\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Fleek\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Fleek\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Fleek\.m2\repository\io\qameta\allure\allure-testng\2.13.0\allure-testng-2.13.0.jar;C:\Users\Fleek\.m2\repository\io\qameta\allure\allure-java-commons\2.13.0\allure-java-commons-2.13.0.jar;C:\Users\Fleek\.m2\repository\io\qameta\allure\allure-model\2.13.0\allure-model-2.13.0.jar;C:\Users\Fleek\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Fleek\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\Fleek\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\Fleek\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\Fleek\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\Fleek\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Fleek\AppData\Local\Temp\surefire7187060409911897240\surefirebooter8667305080752736604.jar C:\Users\Fleek\AppData\Local\Temp\surefire7187060409911897240 2020-02-14T18-15-06_516-jvmRun1 surefire2049673522584579106tmp surefire_08922448961742245201tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Fleek\eclipse-workspace\Practice\PracticeWebsite\target\test-classes;C:\Users\Fleek\eclipse-workspace\Practice\PracticeWebsite\target\classes;C:\Users\Fleek\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\Fleek\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Fleek\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Fleek\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Fleek\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Fleek\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Fleek\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Fleek\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Fleek\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Fleek\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Fleek\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Fleek\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Fleek\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Fleek\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Fleek\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Fleek\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Fleek\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Fleek\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Fleek\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Fleek\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Fleek\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Fleek\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Fleek\.m2\repository\io\qameta\allure\allure-testng\2.13.0\allure-testng-2.13.0.jar;C:\Users\Fleek\.m2\repository\io\qameta\allure\allure-java-commons\2.13.0\allure-java-commons-2.13.0.jar;C:\Users\Fleek\.m2\repository\io\qameta\allure\allure-model\2.13.0\allure-model-2.13.0.jar;C:\Users\Fleek\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Fleek\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\Fleek\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\Fleek\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\Fleek\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\Fleek\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Fleek"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_221\jre"/>
+    <property name="basedir" value="C:\Users\Fleek\eclipse-workspace\Practice\PracticeWebsite"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Fleek\AppData\Local\Temp\surefire7187060409911897240\surefirebooter8667305080752736604.jar;C:\Users\Fleek\.m2\repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="user.name" value="Fleek"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Fleek\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Fleek\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="user.dir" value="C:\Users\Fleek\eclipse-workspace\Practice\PracticeWebsite"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_221/bin/server;C:/Program Files/Java/jre1.8.0_221/bin;C:/Program Files/Java/jre1.8.0_221/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Fleek\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;E:\allure-commandline-2.13.1\allure-2.13.1\bin;C:\Users\Fleek\scoop\shims;C:\Users\Fleek\AppData\Local\Microsoft\WindowsApps;;E:\eclipse-jee-2018-09-win32-x86_64\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="login" classname="com.nopcommerce.test.EcommerceTest" time="12.698"/>
+  <testcase name="registrationtest" classname="com.nopcommerce.test.EcommerceTest" time="24.642">
+    <failure message="expected [The specified email already exists1] but found [[[ChromeDriver: chrome on WINDOWS (e9e154cf01b9ec6006ec27be9eb09fc9)] -&gt; xpath: //li[text()=&apos;The specified email already exists&apos;]]]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [The specified email already exists1] but found [[[ChromeDriver: chrome on WINDOWS (e9e154cf01b9ec6006ec27be9eb09fc9)] -> xpath: //li[text()='The specified email already exists']]]
+	at com.nopcommerce.test.EcommerceTest.registrationtest(EcommerceTest.java:121)
+]]></failure>
+    <system-out><![CDATA[I am in onTestStart method registrationtest start
+I am in onTestFailure method registrationtest failed
+Screenshot captured for test case:registrationtest
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 20071
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1581684348.382][WARNING]: Timed out connecting to Chrome, retrying...
+Feb 14, 2020 6:15:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 29146
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1581684353.645][WARNING]: Timed out connecting to Chrome, retrying...
+Feb 14, 2020 6:15:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1581684357.694][WARNING]: Timed out connecting to Chrome, retrying...
+[1581684361.057][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684361.173][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684361.342][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684361.552][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684361.749][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684361.861][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684361.966][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684362.067][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684362.168][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684362.270][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684362.373][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684362.479][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684362.588][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684362.693][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684362.797][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684362.900][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684363.003][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684363.106][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684363.212][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684363.315][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684363.418][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684363.523][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684363.627][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684363.729][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684363.833][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684363.936][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684364.041][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684364.144][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684364.247][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684364.351][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684364.453][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684364.558][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684364.669][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684364.773][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684364.877][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684365.034][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684365.135][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684365.238][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684365.346][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684365.452][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684365.553][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684365.656][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684365.758][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684365.862][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684365.963][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684366.068][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684366.172][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684366.278][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684366.381][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684366.483][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684366.586][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684366.691][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684366.794][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684366.895][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684366.997][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684367.100][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684367.202][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684367.326][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684367.490][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684367.591][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684371.273][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684390.016][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581684390.118][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="verifylogo" classname="com.nopcommerce.test.EcommerceTest" time="0.073"/>
+</testsuite>

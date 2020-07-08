@@ -1,0 +1,8 @@
+com\practice\pageobjects\BasePage.class
+com\practice\pageobjects\WelcomePage.class
+com\practice\generics\BrowserFactory.class
+com\practice\pageobjects\CheckOutPage.class
+com\practice\generics\AllureTestListenerOrder.class
+com\practice\pageobjects\LetsTalkPage.class
+com\practice\pageobjects\MenuPage.class
+com\practice\generics\BaseLib.class
